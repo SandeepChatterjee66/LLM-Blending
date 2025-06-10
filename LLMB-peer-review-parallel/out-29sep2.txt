@@ -1,0 +1,2488 @@
+Hi
+#########################    Installing LLMS    #########################
+[?25lpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest 
+pulling ff82381e2bea... 100% ▕████████████████▏ 4.1 GB                         
+pulling 43070e2d4e53... 100% ▕████████████████▏  11 KB                         
+pulling 491dfa501e59... 100% ▕████████████████▏  801 B                         
+pulling ed11eda7790d... 100% ▕████████████████▏   30 B                         
+pulling 42347cd80dc8... 100% ▕████████████████▏  485 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+[?25lpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest 
+pulling c1864a5eb193... 100% ▕████████████████▏ 1.7 GB                         
+pulling 097a36493f71... 100% ▕████████████████▏ 8.4 KB                         
+pulling 109037bec39c... 100% ▕████████████████▏  136 B                         
+pulling 22a838ceb7fb... 100% ▕████████████████▏   84 B                         
+pulling 887433b89a90... 100% ▕████████████████▏  483 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+[?25lpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest 
+pulling 46bb65206e0e... 100% ▕████████████████▏ 2.3 GB                         
+pulling 41c2cf8c272f... 100% ▕████████████████▏ 7.3 KB                         
+pulling 1da0581fd4ce... 100% ▕████████████████▏  130 B                         
+pulling f02dd72bb242... 100% ▕████████████████▏   59 B                         
+pulling b861bd365e67... 100% ▕████████████████▏  483 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+[?25lpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest 
+pulling 8934d96d3f08... 100% ▕████████████████▏ 3.8 GB                         
+pulling 8c17c2ebb0ea... 100% ▕████████████████▏ 7.0 KB                         
+pulling 7c23fb36d801... 100% ▕████████████████▏ 4.8 KB                         
+pulling 2e0493f67d0c... 100% ▕████████████████▏   59 B                         
+pulling fa304d675061... 100% ▕████████████████▏   91 B                         
+pulling 42ba7f8a01dd... 100% ▕████████████████▏  557 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+#########################    DatasetInit    #########################
+#########################    Lone LLM Outputs    #########################
+{'model': 'mistral', 'prompt': 'What year did the movie Kindergarten Cop come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'mistral', 'prompt': 'where did they film it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and who was the distributer?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What country did the singer Adele originate from?', 'stream': False}
+{'model': 'mistral', 'prompt': "what's her full name?", 'stream': False}
+{'model': 'mistral', 'prompt': 'her birth date?', 'stream': False}
+{'model': 'mistral', 'prompt': 'what town was she born in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'is she married?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the main character in the book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who wrote this book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is this part of a book series?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of the director?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did it first air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'mistral', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the country of origin of the Los Angeles Galaxy?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What league are they in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is the owner of the club?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'In what television series did Eric Idle and John Cleese star in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How many episodes?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And seasons?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the producer?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's his first production?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'On what network did the TV series Bull preview?', 'stream': False}
+{'model': 'mistral', 'prompt': 'name of the actor who plays bull?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and the first episode was?', 'stream': False}
+{'model': 'mistral', 'prompt': 'who created the series?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and the director?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What club did David Beckham start his career with?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What league?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is he known for?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What club won the 2018 UEFA Champions League Final?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who did Madrid beat?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was the match?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who got Man of the Match?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where is Bale from?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did Major League Soccer form?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the organizer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What league is before that?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Which author wrote the novel Moby-Dick?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was the novel first released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was a film of this book ever made?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When was the MLS formed?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who organized it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the league below that??', 'stream': False}
+{'model': 'mistral', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Where does Lionel Messi come from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and what place was he born in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'is he married?', 'stream': False}
+{'model': 'mistral', 'prompt': 'did he go to jail?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What actor played Kramer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What actor played George?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What year did the Wizard of Oz come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the main actor?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the dogs name?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the name of the author of The Catcher in the Rye?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And the writer is male or female?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And where is the author from originally?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did it come out?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the main character's name?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who wrote The Great Gatsby?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was Fitzgerald married to?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'mistral', 'prompt': "Where is St. Patrick's Cathedral?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who was the director of the movie Willy Wonka and the Chocolate Factory?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is it based on a book by Dick King-Smith?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the author of The Mist?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did it win any awards?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the release date of The Silence of the Lambs?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the screenwriter?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Clarice Starling?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who acted as Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the creation date of The Cranberries?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the singer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played guitar?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the drummer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did they disband?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did the movie Grease come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who play Danny Zuko?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which actress played Sandy?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which director directed the movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Which book featured the character Jean Val Jean?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the author?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the original publishing year?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did the character Cosette appear?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What revolution takes place?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'does he have a wife?', 'stream': False}
+{'model': 'mistral', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When was the movie Kindergarten Cop released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'mistral', 'prompt': 'where was it made?', 'stream': False}
+{'model': 'mistral', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'who distributed it?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did Seinfeld first air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What genre?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name the composer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And what year did it come out?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "What is Christina Aguilera's middle name?", 'stream': False}
+{'model': 'mistral', 'prompt': "Where's Aguilera from originally?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's his name?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Are they still together?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What year was the movie Grease released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which actor played Danny?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Sandy?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is the director?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What genre?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Composer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Year of release?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Where did Black Sabbath come from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What genre is the band?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Are they in the Rock and Roll Hall of fame?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And who was the lead singer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year break up?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'The director was who?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did it get an Oscar?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is he famous for?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who wrote the Harry Potter books?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was it published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of her birthplace?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did she get the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Does she have a nickname?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where is she buried?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'mistral', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who wrote the episode?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the original airdate?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What episode aired before E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the name of the lead singer of Gloryhammer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was the band formed?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who plays the keyboard?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which other band is he part of?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year were they formed?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the lead singer of 30 Seconds to Mars?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did the band start up?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What type of music genre are they?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What record label are they under?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was the last album put out by the band?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'mistral', 'prompt': "What is Derek's occupation?", 'stream': False}
+{'model': 'mistral', 'prompt': "How about his wife's occupation?", 'stream': False}
+{'model': 'mistral', 'prompt': 'What kind of accident ended up killing Derek?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What kind of television is The Rookie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of Nathan Fillion character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What network is it on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When was The Silence of the Lambs released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who screen wrote it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who acted as Clarice Starling?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the head coach of the Orlando City SC?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was their inception?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the last team Jason Kreis was a part of?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which league is Real Salt Lake a part of?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the author of The Great Gatsby?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'mistral', 'prompt': "Who was Fitzgerald's wife?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'mistral', 'prompt': "What city is St. Patrick's Cathedral in?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first year Friends aired?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who acted as Rachel Green?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who acted as Monica Geller?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who acted as Joey Tribbiani?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Ross Geller?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was this made into a movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Who does she get married to?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'mistral', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'mistral', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was she born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was she award the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is her nickname?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the name of the place she is buried?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And who published it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was it also a movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Head coach of Orlando City SC?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Year of inception?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Team Jason Kreis was last associated?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which league does Real Salt Lake participate in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who directed the movie Willy Wonka and the Choclate Factory', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is it an adaptation of a Dick King-Smith book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the author that wrote the book Moby-Dick?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And which year was the book published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did they make a movie based on the book?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the narrator?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What club was he with between 2007 and 2012?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did the first The Fast and the Furious film come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Brian in the movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the director?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How much money have they made?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What actor played Dominic?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'The TV show Arrested Development was first broadcast in what year?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What actor plays Michael Bluth?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was he also in Game Night?', 'stream': False}
+{'model': 'mistral', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'mistral', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who are the 2018 champions?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'mistral', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt) from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who wrote E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did E-I-E-I-(Annoyed Grunt) first air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the previous episode?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'mistral', 'prompt': "Tupac Shakur's mother?", 'stream': False}
+{'model': 'mistral', 'prompt': 'When did Tupac Shakur die?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Which network originally broadcasted Lost?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the name of the writer of The Secret Garden?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What kind of book is it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was Pele born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How many songs on it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Where was Lionel Messi born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What does he do on the field?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What team is he on?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is his wife?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What language does he speak?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who was the author of Fight Club?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Main filming location in movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Length of movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played Tyler Durden?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Date of publication?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'mistral', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Where is the team Manchester United from?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the name of their league?", 'stream': False}
+{'model': 'mistral', 'prompt': "What is the team's nickname?", 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of their home stadium?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where are they located?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "What is the name of Metallica's first album", 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is the drummer?', 'stream': False}
+{'model': 'mistral', 'prompt': "Who's the singer?", 'stream': False}
+{'model': 'mistral', 'prompt': 'When did they form?', 'stream': False}
+{'model': 'mistral', 'prompt': 'still touring in 2018?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Director of the movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did it win any Oscars?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who wrote the book The Secret Garden?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the type of the book?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How many songs are on the album?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'By whom was Misery written?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where is the place setting of the novel?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of the lead female character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is the main male character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What does Paul Sheldon do for a living?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was it nominated?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the middle name of singer Christina Aguilera?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And where was she born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was she married to?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And are the two of them still married?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'mistral', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'mistral', 'prompt': "Who was Tupac Shakur's mom?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Date of death?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "What is soccer player Tim Howard's position?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Which MLS club did he play for in 2018?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's his middle name?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Against what team?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who was the author of Harry Potter?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': "Who is the character in Grey's Anatomy that shares her last name with part of the title?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'mistral', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'mistral', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was American Broadcasting Company created?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name of the person who played Jack Shephard?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who were the creators of Lost?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Country of this team?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What league does this club belong to?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Name of owner?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'mistral', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Did he ever score a goal while he played in the Premier League?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When was his first FIFA World Cup?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'On which day was the 2001 movie The Fast and the Furious originally released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Dominic Toretto is played by what actor?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What number of these movies were made?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the name of the movie's director?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Did he direct Stealth?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'mistral', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'mistral', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'is he married?', 'stream': False}
+{'model': 'mistral', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'When did the first episode of Game of Throne air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played the role of Jon Snow?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who played the role of Daenerys Targaryen?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was the network that broadcast it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Actors name that plays Arya Stark?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first year Twilight Zone was on air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Were most of the episodes written by Rod Serling?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'In which year was the theatrical release of the movie Wedding Crashers?', 'stream': False}
+{'model': 'mistral', 'prompt': "And who's the actor that plays Rachel McAdams' dad?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Is Isla Fisher in it too?', 'stream': False}
+{'model': 'mistral', 'prompt': "And what's the director's name?", 'stream': False}
+{'model': 'mistral', 'prompt': 'Did he also direct Shanghai Knights?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What year was the Wizard of Oz released?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the star actor?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What about the dogs name?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Who published it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was it turned in to a movie?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'mistral', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'mistral', 'prompt': 'The show was broadcast on what TV channel?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And who was A.C. Slater played by?', 'stream': False}
+{'model': 'mistral', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'What year did the TV show Arrested Development first air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'And who plays Michael Bluth on the show?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Did Bateman star in the movie Game Night?', 'stream': False}
+{'model': 'mistral', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'mistral', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Where was Matthew Fox born?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+#########################    Lone LLM Outputs    #########################
+{'model': 'gemma:2b', 'prompt': 'What year did the movie Kindergarten Cop come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'where did they film it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and who was the distributer?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What country did the singer Adele originate from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "what's her full name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'her birth date?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'what town was she born in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'is she married?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the main character in the book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who wrote this book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is this part of a book series?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of the director?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did it first air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the country of origin of the Los Angeles Galaxy?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What league are they in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is the owner of the club?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'In what television series did Eric Idle and John Cleese star in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How many episodes?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And seasons?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the producer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's his first production?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'On what network did the TV series Bull preview?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'name of the actor who plays bull?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and the first episode was?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'who created the series?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and the director?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What club did David Beckham start his career with?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What league?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is he known for?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What club won the 2018 UEFA Champions League Final?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who did Madrid beat?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was the match?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who got Man of the Match?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where is Bale from?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did Major League Soccer form?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the organizer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What league is before that?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Which author wrote the novel Moby-Dick?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was the novel first released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was a film of this book ever made?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When was the MLS formed?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who organized it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the league below that??', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Where does Lionel Messi come from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and what place was he born in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'is he married?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'did he go to jail?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What actor played Kramer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What actor played George?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What year did the Wizard of Oz come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the main actor?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the dogs name?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the name of the author of The Catcher in the Rye?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And the writer is male or female?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And where is the author from originally?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did it come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the main character's name?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who wrote The Great Gatsby?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was Fitzgerald married to?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Where is St. Patrick's Cathedral?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who was the director of the movie Willy Wonka and the Chocolate Factory?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is it based on a book by Dick King-Smith?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the author of The Mist?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did it win any awards?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the release date of The Silence of the Lambs?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the screenwriter?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Clarice Starling?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who acted as Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the creation date of The Cranberries?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the singer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played guitar?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the drummer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did they disband?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did the movie Grease come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who play Danny Zuko?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which actress played Sandy?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which director directed the movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Which book featured the character Jean Val Jean?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the author?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the original publishing year?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did the character Cosette appear?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What revolution takes place?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'does he have a wife?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When was the movie Kindergarten Cop released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'where was it made?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'who distributed it?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did Seinfeld first air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What genre?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name the composer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And what year did it come out?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "What is Christina Aguilera's middle name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Where's Aguilera from originally?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's his name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Are they still together?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What year was the movie Grease released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which actor played Danny?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Sandy?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is the director?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What genre?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Composer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Year of release?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Where did Black Sabbath come from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What genre is the band?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Are they in the Rock and Roll Hall of fame?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And who was the lead singer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year break up?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'The director was who?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did it get an Oscar?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is he famous for?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who wrote the Harry Potter books?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was it published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of her birthplace?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did she get the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Does she have a nickname?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where is she buried?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who wrote the episode?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the original airdate?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What episode aired before E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the name of the lead singer of Gloryhammer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was the band formed?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who plays the keyboard?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which other band is he part of?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year were they formed?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the lead singer of 30 Seconds to Mars?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did the band start up?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What type of music genre are they?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What record label are they under?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was the last album put out by the band?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What is Derek's occupation?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "How about his wife's occupation?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What kind of accident ended up killing Derek?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What kind of television is The Rookie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of Nathan Fillion character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What network is it on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When was The Silence of the Lambs released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who screen wrote it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who acted as Clarice Starling?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the head coach of the Orlando City SC?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was their inception?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the last team Jason Kreis was a part of?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which league is Real Salt Lake a part of?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the author of The Great Gatsby?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Who was Fitzgerald's wife?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What city is St. Patrick's Cathedral in?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first year Friends aired?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who acted as Rachel Green?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who acted as Monica Geller?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who acted as Joey Tribbiani?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Ross Geller?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was this made into a movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who does she get married to?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was she born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was she award the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is her nickname?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the name of the place she is buried?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And who published it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was it also a movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Head coach of Orlando City SC?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Year of inception?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Team Jason Kreis was last associated?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which league does Real Salt Lake participate in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who directed the movie Willy Wonka and the Choclate Factory', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is it an adaptation of a Dick King-Smith book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the author that wrote the book Moby-Dick?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And which year was the book published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did they make a movie based on the book?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the narrator?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What club was he with between 2007 and 2012?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did the first The Fast and the Furious film come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Brian in the movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the director?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How much money have they made?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What actor played Dominic?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'The TV show Arrested Development was first broadcast in what year?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What actor plays Michael Bluth?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was he also in Game Night?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who are the 2018 champions?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt) from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who wrote E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did E-I-E-I-(Annoyed Grunt) first air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the previous episode?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Tupac Shakur's mother?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did Tupac Shakur die?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Which network originally broadcasted Lost?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the name of the writer of The Secret Garden?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What kind of book is it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was Pele born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How many songs on it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Where was Lionel Messi born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What does he do on the field?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What team is he on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is his wife?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What language does he speak?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who was the author of Fight Club?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Main filming location in movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Length of movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played Tyler Durden?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Date of publication?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Where is the team Manchester United from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the name of their league?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What is the team's nickname?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of their home stadium?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where are they located?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "What is the name of Metallica's first album", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is the drummer?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Who's the singer?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did they form?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'still touring in 2018?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Director of the movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did it win any Oscars?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who wrote the book The Secret Garden?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the type of the book?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How many songs are on the album?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'By whom was Misery written?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where is the place setting of the novel?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of the lead female character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is the main male character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What does Paul Sheldon do for a living?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was it nominated?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the middle name of singer Christina Aguilera?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And where was she born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was she married to?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And are the two of them still married?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Who was Tupac Shakur's mom?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Date of death?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "What is soccer player Tim Howard's position?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which MLS club did he play for in 2018?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's his middle name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Against what team?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who was the author of Harry Potter?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': "Who is the character in Grey's Anatomy that shares her last name with part of the title?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was American Broadcasting Company created?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name of the person who played Jack Shephard?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who were the creators of Lost?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Country of this team?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What league does this club belong to?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Name of owner?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did he ever score a goal while he played in the Premier League?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When was his first FIFA World Cup?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'On which day was the 2001 movie The Fast and the Furious originally released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Dominic Toretto is played by what actor?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What number of these movies were made?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the name of the movie's director?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did he direct Stealth?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'is he married?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'When did the first episode of Game of Throne air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played the role of Jon Snow?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who played the role of Daenerys Targaryen?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was the network that broadcast it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Actors name that plays Arya Stark?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first year Twilight Zone was on air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Were most of the episodes written by Rod Serling?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'In which year was the theatrical release of the movie Wedding Crashers?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "And who's the actor that plays Rachel McAdams' dad?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Is Isla Fisher in it too?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "And what's the director's name?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did he also direct Shanghai Knights?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What year was the Wizard of Oz released?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the star actor?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What about the dogs name?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Who published it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was it turned in to a movie?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'The show was broadcast on what TV channel?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And who was A.C. Slater played by?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'What year did the TV show Arrested Development first air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'And who plays Michael Bluth on the show?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Did Bateman star in the movie Game Night?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'gemma:2b', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Where was Matthew Fox born?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+#########################    Lone LLM Outputs    #########################
+{'model': 'qwen:4b', 'prompt': 'What year did the movie Kindergarten Cop come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'where did they film it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and who was the distributer?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What country did the singer Adele originate from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "what's her full name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'her birth date?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'what town was she born in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'is she married?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the main character in the book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who wrote this book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is this part of a book series?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of the director?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did it first air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the country of origin of the Los Angeles Galaxy?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What league are they in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is the owner of the club?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'In what television series did Eric Idle and John Cleese star in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How many episodes?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And seasons?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the producer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's his first production?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'On what network did the TV series Bull preview?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'name of the actor who plays bull?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and the first episode was?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'who created the series?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and the director?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What club did David Beckham start his career with?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What league?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is he known for?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What club won the 2018 UEFA Champions League Final?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who did Madrid beat?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was the match?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who got Man of the Match?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where is Bale from?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did Major League Soccer form?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the organizer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What league is before that?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Which author wrote the novel Moby-Dick?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was the novel first released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was a film of this book ever made?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When was the MLS formed?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who organized it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the league below that??', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Where does Lionel Messi come from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and what place was he born in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'is he married?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'did he go to jail?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What actor played Kramer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What actor played George?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What year did the Wizard of Oz come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the main actor?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the dogs name?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the name of the author of The Catcher in the Rye?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And the writer is male or female?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And where is the author from originally?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did it come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the main character's name?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who wrote The Great Gatsby?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was Fitzgerald married to?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Where is St. Patrick's Cathedral?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who was the director of the movie Willy Wonka and the Chocolate Factory?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is it based on a book by Dick King-Smith?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the author of The Mist?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did it win any awards?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the release date of The Silence of the Lambs?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the screenwriter?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Clarice Starling?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who acted as Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the creation date of The Cranberries?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the singer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played guitar?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the drummer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did they disband?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did the movie Grease come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who play Danny Zuko?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which actress played Sandy?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which director directed the movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Which book featured the character Jean Val Jean?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the author?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the original publishing year?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did the character Cosette appear?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What revolution takes place?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'does he have a wife?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When was the movie Kindergarten Cop released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'where was it made?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'who distributed it?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did Seinfeld first air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What genre?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name the composer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And what year did it come out?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "What is Christina Aguilera's middle name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Where's Aguilera from originally?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's his name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Are they still together?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What year was the movie Grease released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which actor played Danny?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Sandy?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is the director?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What genre?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Composer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Year of release?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Where did Black Sabbath come from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What genre is the band?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Are they in the Rock and Roll Hall of fame?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And who was the lead singer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year break up?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'The director was who?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did it get an Oscar?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is he famous for?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who wrote the Harry Potter books?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was it published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of her birthplace?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did she get the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Does she have a nickname?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where is she buried?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who wrote the episode?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the original airdate?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What episode aired before E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the name of the lead singer of Gloryhammer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was the band formed?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who plays the keyboard?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which other band is he part of?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year were they formed?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the lead singer of 30 Seconds to Mars?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did the band start up?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What type of music genre are they?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What record label are they under?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was the last album put out by the band?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What is Derek's occupation?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "How about his wife's occupation?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What kind of accident ended up killing Derek?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What kind of television is The Rookie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of Nathan Fillion character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What network is it on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When was The Silence of the Lambs released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who screen wrote it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who acted as Clarice Starling?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the head coach of the Orlando City SC?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was their inception?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the last team Jason Kreis was a part of?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which league is Real Salt Lake a part of?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the author of The Great Gatsby?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Who was Fitzgerald's wife?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What city is St. Patrick's Cathedral in?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first year Friends aired?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who acted as Rachel Green?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who acted as Monica Geller?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who acted as Joey Tribbiani?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Ross Geller?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was this made into a movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who does she get married to?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was she born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was she award the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is her nickname?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the name of the place she is buried?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And who published it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was it also a movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Head coach of Orlando City SC?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Year of inception?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Team Jason Kreis was last associated?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which league does Real Salt Lake participate in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who directed the movie Willy Wonka and the Choclate Factory', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is it an adaptation of a Dick King-Smith book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the author that wrote the book Moby-Dick?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And which year was the book published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did they make a movie based on the book?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the narrator?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What club was he with between 2007 and 2012?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did the first The Fast and the Furious film come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Brian in the movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the director?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How much money have they made?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What actor played Dominic?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'The TV show Arrested Development was first broadcast in what year?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What actor plays Michael Bluth?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was he also in Game Night?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who are the 2018 champions?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt) from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who wrote E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did E-I-E-I-(Annoyed Grunt) first air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the previous episode?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Tupac Shakur's mother?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did Tupac Shakur die?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Which network originally broadcasted Lost?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the name of the writer of The Secret Garden?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What kind of book is it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was Pele born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How many songs on it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Where was Lionel Messi born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What does he do on the field?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What team is he on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is his wife?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What language does he speak?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who was the author of Fight Club?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Main filming location in movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Length of movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played Tyler Durden?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Date of publication?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Where is the team Manchester United from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the name of their league?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What is the team's nickname?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of their home stadium?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where are they located?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "What is the name of Metallica's first album", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is the drummer?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Who's the singer?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did they form?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'still touring in 2018?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Director of the movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did it win any Oscars?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who wrote the book The Secret Garden?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the type of the book?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How many songs are on the album?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'By whom was Misery written?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where is the place setting of the novel?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of the lead female character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is the main male character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What does Paul Sheldon do for a living?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was it nominated?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the middle name of singer Christina Aguilera?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And where was she born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was she married to?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And are the two of them still married?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Who was Tupac Shakur's mom?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Date of death?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "What is soccer player Tim Howard's position?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which MLS club did he play for in 2018?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's his middle name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Against what team?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who was the author of Harry Potter?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': "Who is the character in Grey's Anatomy that shares her last name with part of the title?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was American Broadcasting Company created?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name of the person who played Jack Shephard?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who were the creators of Lost?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Country of this team?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What league does this club belong to?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Name of owner?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did he ever score a goal while he played in the Premier League?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When was his first FIFA World Cup?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'On which day was the 2001 movie The Fast and the Furious originally released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Dominic Toretto is played by what actor?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What number of these movies were made?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the name of the movie's director?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did he direct Stealth?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'is he married?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'When did the first episode of Game of Throne air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played the role of Jon Snow?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who played the role of Daenerys Targaryen?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was the network that broadcast it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Actors name that plays Arya Stark?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first year Twilight Zone was on air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Were most of the episodes written by Rod Serling?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'In which year was the theatrical release of the movie Wedding Crashers?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "And who's the actor that plays Rachel McAdams' dad?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Is Isla Fisher in it too?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "And what's the director's name?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did he also direct Shanghai Knights?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What year was the Wizard of Oz released?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the star actor?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What about the dogs name?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Who published it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was it turned in to a movie?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'The show was broadcast on what TV channel?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And who was A.C. Slater played by?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'What year did the TV show Arrested Development first air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'And who plays Michael Bluth on the show?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Did Bateman star in the movie Game Night?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'qwen:4b', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Where was Matthew Fox born?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+#########################    Lone LLM Outputs    #########################
+{'model': 'llama2', 'prompt': 'What year did the movie Kindergarten Cop come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'llama2', 'prompt': 'where did they film it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and who was the distributer?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What country did the singer Adele originate from?', 'stream': False}
+{'model': 'llama2', 'prompt': "what's her full name?", 'stream': False}
+{'model': 'llama2', 'prompt': 'her birth date?', 'stream': False}
+{'model': 'llama2', 'prompt': 'what town was she born in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'is she married?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the main character in the book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who wrote this book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is this part of a book series?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of the director?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did it first air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'llama2', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the country of origin of the Los Angeles Galaxy?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What league are they in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is the owner of the club?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was this published?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'In what television series did Eric Idle and John Cleese star in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How many episodes?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And seasons?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the producer?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's his first production?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'On what network did the TV series Bull preview?', 'stream': False}
+{'model': 'llama2', 'prompt': 'name of the actor who plays bull?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and the first episode was?', 'stream': False}
+{'model': 'llama2', 'prompt': 'who created the series?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and the director?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What club did David Beckham start his career with?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What league?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is he known for?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What club won the 2018 UEFA Champions League Final?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who did Madrid beat?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was the match?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who got Man of the Match?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where is Bale from?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did Major League Soccer form?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the organizer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What league is before that?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Which author wrote the novel Moby-Dick?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was the novel first released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was a film of this book ever made?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When was the MLS formed?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which country hosted it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who organized it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the league below that??', 'stream': False}
+{'model': 'llama2', 'prompt': 'When is the end of the season?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Where does Lionel Messi come from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and what place was he born in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'is he married?', 'stream': False}
+{'model': 'llama2', 'prompt': 'did he go to jail?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What actor played Kramer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What actor played George?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What year did the Wizard of Oz come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the main actor?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the dogs name?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the name of the author of The Catcher in the Rye?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And the writer is male or female?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And where is the author from originally?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did it come out?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the main character's name?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who wrote The Great Gatsby?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was Fitzgerald married to?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'llama2', 'prompt': "Where is St. Patrick's Cathedral?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who was the director of the movie Willy Wonka and the Chocolate Factory?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is it based on a book by Dick King-Smith?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the author of The Mist?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did it win any awards?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the release date of The Silence of the Lambs?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the screenwriter?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Clarice Starling?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who acted as Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the creation date of The Cranberries?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the singer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played guitar?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the drummer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did they disband?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did the movie Grease come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who play Danny Zuko?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which actress played Sandy?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which director directed the movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Which book featured the character Jean Val Jean?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the author?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the original publishing year?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did the character Cosette appear?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What revolution takes place?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'does he have a wife?', 'stream': False}
+{'model': 'llama2', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When was the movie Kindergarten Cop released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'who played the cop?', 'stream': False}
+{'model': 'llama2', 'prompt': 'where was it made?', 'stream': False}
+{'model': 'llama2', 'prompt': 'how much did it bring in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'who distributed it?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did Seinfeld first air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which network was it shown on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What genre?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name the composer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And what year did it come out?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "What is Christina Aguilera's middle name?", 'stream': False}
+{'model': 'llama2', 'prompt': "Where's Aguilera from originally?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's his name?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Are they still together?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What year was the movie Grease released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which actor played Danny?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Sandy?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is the director?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of the second moive?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who directed Night of the Living Dead?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What genre?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Film setting?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Composer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Year of release?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Where did Black Sabbath come from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What genre is the band?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Are they in the Rock and Roll Hall of fame?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And who was the lead singer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year break up?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'The director was who?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did it get an Oscar?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the real name of Eminem?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is he famous for?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name of his first album?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the name of his second album?", 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did he release his most recent album?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who wrote the Harry Potter books?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was it published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of her birthplace?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did she get the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Does she have a nickname?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where is she buried?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'llama2', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who wrote the episode?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the original airdate?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What episode aired before E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the name of the lead singer of Gloryhammer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was the band formed?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who plays the keyboard?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which other band is he part of?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year were they formed?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the lead singer of 30 Seconds to Mars?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did the band start up?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What type of music genre are they?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What record label are they under?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was the last album put out by the band?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'llama2', 'prompt': "What is Derek's occupation?", 'stream': False}
+{'model': 'llama2', 'prompt': "How about his wife's occupation?", 'stream': False}
+{'model': 'llama2', 'prompt': 'What kind of accident ended up killing Derek?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What kind of television is The Rookie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of Nathan Fillion character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What network is it on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did the show Seinfeld come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What city was it in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Kramer?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played George?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When was The Silence of the Lambs released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who directed it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who screen wrote it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who acted as Clarice Starling?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Hannibal Lecter?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the head coach of the Orlando City SC?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was their inception?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the last team Jason Kreis was a part of?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which league is Real Salt Lake a part of?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the author of The Great Gatsby?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did Fitzgerald write The Great Gatsby?', 'stream': False}
+{'model': 'llama2', 'prompt': "Who was Fitzgerald's wife?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Where were the Fitzgeralds married?', 'stream': False}
+{'model': 'llama2', 'prompt': "What city is St. Patrick's Cathedral in?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first year Friends aired?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who acted as Rachel Green?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who acted as Monica Geller?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who acted as Joey Tribbiani?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Ross Geller?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was this made into a movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "Which character shares part of her name with the title of Grey's Anatomy?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Who does she get married to?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'llama2', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'llama2', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What year was Janis Joplin born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was she born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was she award the Grammy Lifetime Achievement Award?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is her nickname?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the name of the place she is buried?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And who published it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was it also a movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Head coach of Orlando City SC?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Year of inception?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Team Jason Kreis was last associated?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which league does Real Salt Lake participate in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Marjor League Soccer start year?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who directed the movie Willy Wonka and the Choclate Factory', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is Charlie Bucket  in the film?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is it an adaptation of a Dick King-Smith book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which character was shrunk?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year did it come out?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the author that wrote the book Moby-Dick?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What city is Melville from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And which year was the book published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did they make a movie based on the book?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'In what year did The Twilight Zone first start airing?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did Rod Serling write the majority of the episodes?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the narrator?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What club was he with between 2007 and 2012?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who won the MLS Cup in 2018?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did the first The Fast and the Furious film come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Brian in the movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the director?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How much money have they made?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What actor played Dominic?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'The TV show Arrested Development was first broadcast in what year?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What actor plays Michael Bluth?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was he also in Game Night?', 'stream': False}
+{'model': 'llama2', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'llama2', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Which soccer club did David Beckham make his debut on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What about from 2007 to 2012?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What country is the club based in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What league is the club in?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who are the 2018 champions?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "What's the episode with Sneed's Feed & Seed in The Simpsons?", 'stream': False}
+{'model': 'llama2', 'prompt': 'What season was E-I-E-I-(Annoyed Grunt) from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who wrote E-I-E-I-(Annoyed Grunt)?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did E-I-E-I-(Annoyed Grunt) first air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the previous episode?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'llama2', 'prompt': "Tupac Shakur's mother?", 'stream': False}
+{'model': 'llama2', 'prompt': 'When did Tupac Shakur die?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Which network originally broadcasted Lost?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the name of the writer of The Secret Garden?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What kind of book is it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was Pele born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who is the main character of book The Gunslinger?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What author wrote this book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was this book ever developed into a movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Is this part of a series?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was this book published?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How many songs on it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Where was Lionel Messi born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What does he do on the field?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What team is he on?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is his wife?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What language does he speak?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who was the author of Fight Club?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Main filming location in movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Length of movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played Tyler Durden?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Date of publication?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'llama2', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Where is the team Manchester United from?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the name of their league?", 'stream': False}
+{'model': 'llama2', 'prompt': "What is the team's nickname?", 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of their home stadium?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where are they located?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "What is the name of Metallica's first album", 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is the drummer?', 'stream': False}
+{'model': 'llama2', 'prompt': "Who's the singer?", 'stream': False}
+{'model': 'llama2', 'prompt': 'When did they form?', 'stream': False}
+{'model': 'llama2', 'prompt': 'still touring in 2018?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first Pixar movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Director of the movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did it win any Oscars?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How long was it?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who wrote the book The Secret Garden?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where does the story take place?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was the book published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the type of the book?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was the book first published?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'How many people were in The Beatles?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the first album?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was it released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How many songs are on the album?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Their longest song?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'By whom was Misery written?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where is the place setting of the novel?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of the lead female character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is the main male character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What does Paul Sheldon do for a living?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What type of show is it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who does Nathan Fillion play?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is the name of the network where airs?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who directors the show?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What actress plays Lucy Chen?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was it nominated?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the middle name of singer Christina Aguilera?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And where was she born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did she get married?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was she married to?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And are the two of them still married?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the birth name of Tupac Shakur?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Place of birth?', 'stream': False}
+{'model': 'llama2', 'prompt': 'How did Tupac Shakur die?', 'stream': False}
+{'model': 'llama2', 'prompt': "Who was Tupac Shakur's mom?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Date of death?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "What is soccer player Tim Howard's position?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Which MLS club did he play for in 2018?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's his middle name?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Has Howard ever scored a goal in the Premier League?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Against what team?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who was the author of Harry Potter?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What book came out first?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who is the main character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which one was the last?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': "Who is the character in Grey's Anatomy that shares her last name with part of the title?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Who does she end up marrying?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What does Derek do for a living?', 'stream': False}
+{'model': 'llama2', 'prompt': "What about Meredith's current position?", 'stream': False}
+{'model': 'llama2', 'prompt': "What kind of accident caused Derek's death?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was American Broadcasting Company created?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name of the person who played Jack Shephard?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Place that Matthew Fox was born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who were the creators of Lost?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Country of this team?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Founding date?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name of head coach?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What league does this club belong to?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Name of owner?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What position does soccer player Tim Howard play?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What club team was he on in 2018?', 'stream': False}
+{'model': 'llama2', 'prompt': "And what is Howard's middle name?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Did he ever score a goal while he played in the Premier League?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What team did Howard score a goal against?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When was his first FIFA World Cup?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'On which day was the 2001 movie The Fast and the Furious originally released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Dominic Toretto is played by what actor?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What number of these movies were made?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the name of the movie's director?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Did he direct Stealth?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What network was it on?', 'stream': False}
+{'model': 'llama2', 'prompt': "What's the guy's name that played A.C. Slater?", 'stream': False}
+{'model': 'llama2', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What country is Lionel Messi from?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and when was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'where was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'is he married?', 'stream': False}
+{'model': 'llama2', 'prompt': 'did he service time in prison?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'When did the first episode of Game of Throne air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played the role of Jon Snow?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who played the role of Daenerys Targaryen?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was the network that broadcast it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Actors name that plays Arya Stark?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first year Twilight Zone was on air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Which episode aired first?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Were most of the episodes written by Rod Serling?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who narrated the show?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What was his other show?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What was the first team he played for?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What date was he born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is his job?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was Pele born at?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was the first FIFA World Cup he played in?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'In which year was the theatrical release of the movie Wedding Crashers?', 'stream': False}
+{'model': 'llama2', 'prompt': "And who's the actor that plays Rachel McAdams' dad?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Is Isla Fisher in it too?', 'stream': False}
+{'model': 'llama2', 'prompt': "And what's the director's name?", 'stream': False}
+{'model': 'llama2', 'prompt': 'Did he also direct Shanghai Knights?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What year was the Wizard of Oz released?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the star actor?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who was the actor who played the scarecrow?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What about tin man?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What about the dogs name?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Who wrote it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Who published it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And what was the name of the main character?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was it turned in to a movie?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Publish date?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What is the name of the person who created Saved by the Bell?', 'stream': False}
+{'model': 'llama2', 'prompt': 'When did it come out?', 'stream': False}
+{'model': 'llama2', 'prompt': 'The show was broadcast on what TV channel?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And who was A.C. Slater played by?', 'stream': False}
+{'model': 'llama2', 'prompt': "Is he the guy that hosted America's Best Dance Crew?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'What year did the TV show Arrested Development first air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'And who plays Michael Bluth on the show?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Did Bateman star in the movie Game Night?', 'stream': False}
+{'model': 'llama2', 'prompt': "Who was the show's creator?", 'stream': False}
+{'model': 'llama2', 'prompt': "Which actress plays Michael's sister in the show?", 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'On which network did Lost originally air?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Inception date of the American Broadcasting Company?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Actor that played Jack Shephard?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Where was Matthew Fox born?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Creators of Lost?', 'stream': False}
+row ok
+######################### Non-Conversational LLM Blender #########################
+WARNING:root:No ranker config provided, no ranker loaded, please load ranker first through load_ranker()
+WARNING:root:No fuser config provided, no fuser loaded, please load fuser first through load_fuser()
+/workspace/amit_ug/.local/lib/python3.10/site-packages/dataclasses_json/core.py:201: RuntimeWarning: 'NoneType' object value of non-optional type load_checkpoint detected when decoding RankerConfig.
+  warnings.warn(
+/workspace/amit_ug/.local/lib/python3.10/site-packages/dataclasses_json/core.py:201: RuntimeWarning: 'NoneType' object value of non-optional type device detected when decoding RankerConfig.
+  warnings.warn(
+/workspace/amit_ug/.local/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py:562: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Successfully loaded ranker from  /workspace/amit_ug/.cache/huggingface/hub/llm-blender/PairRM
+
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]
+Ranking candidates: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+Ranking candidates: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+[[2 4 3 1]]
+
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/workspace/amit_ug/Sandeep/blender/LLMB-sandeep/Project/colab_script.py", line 175, in <module>
+    llm_blender_nonConv(llm_list, inputs, lone_outputs)
+  File "/workspace/amit_ug/Sandeep/blender/LLMB-sandeep/Project/colab_script.py", line 110, in llm_blender_nonConv
+    fuse_generations = blender.fuse(
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/llm_blender/blender/blender.py", line 647, in fuse
+    for batch in tqdm(iter(dataloader), desc="Fusing candidates", disable=not self.blender_config.use_tqdm):
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/llm_blender/blender/blender_utils.py", line 188, in __getitem__
+    candidates = "</s>".join([f"Candidate {i}: <extra_id_{i}>:" + c for i, c in enumerate(candidates)]) # extra id
+  File "/workspace/amit_ug/.local/lib/python3.10/site-packages/llm_blender/blender/blender_utils.py", line 188, in <listcomp>
+    candidates = "</s>".join([f"Candidate {i}: <extra_id_{i}>:" + c for i, c in enumerate(candidates)]) # extra id
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U26'), dtype('<U60')) -> None

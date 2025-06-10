@@ -1,0 +1,29 @@
+{
+    "id": "cooking_dialogue_123",
+    "domain": "cooking",
+    "title": "How to make perfect scrambled eggs?",
+    "qa_pairs": [
+        {
+            "question": "What's the secret to fluffy scrambled eggs?",
+            "answer": "Many chefs swear by adding a splash of milk or cream, but really, the secret is low heat and constant stirring.",
+            "turn_id": 0,
+            "answer_start": 42, // Character offset for the answer within a larger text (if applicable)
+            "context": "Scrambled eggs are a classic breakfast dish. Achieving the perfect texture can be tricky. Some people prefer them firm, others soft and fluffy. The tools you use, like a non-stick pan, can also make a difference."
+        },
+        {
+            "question": "Should I use butter or oil for the pan?",
+            "answer": "Butter often gives a richer flavor and helps prevent sticking. Just make sure it doesn't brown too much before you add the eggs.",
+            "turn_id": 1,
+            "answer_start": 0,
+            "context": "Once you have your eggs whisked, the next step is preparing your pan. Butter is traditional, but some opt for olive oil or even bacon fat for a different flavor profile."
+        },
+        {
+            "question": "What about salt and pepper? When should I add them?",
+            "answer": "Add salt and pepper right before you serve, or at the very end of cooking. Adding them too early can draw moisture out of the eggs, making them watery.",
+            "turn_id": 2,
+            "answer_start": 30,
+            "context": "Seasoning is key to any dish. With eggs, timing can impact texture. Freshly ground pepper and sea salt are often recommended."
+        }
+    ],
+    "document_text": "This is a longer document that provides the source information from which the answers are extracted. It might contain the full recipe or a related article about cooking techniques for eggs. Answers are spans within this text."
+}

@@ -1,0 +1,2 @@
+['Stephen King', '21 September 1947', '1981', 'No', 'Yes']
+['yes', '1936', 'yes', 'After all, tomorrow is another day.', 'yes']

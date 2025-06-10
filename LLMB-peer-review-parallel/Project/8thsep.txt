@@ -1,0 +1,166 @@
+Hi
+#########################    Installing LLMS    #########################
+[?25lpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest 
+pulling ff82381e2bea... 100% ▕████████████████▏ 4.1 GB                         
+pulling 43070e2d4e53... 100% ▕████████████████▏  11 KB                         
+pulling 491dfa501e59... 100% ▕████████████████▏  801 B                         
+pulling ed11eda7790d... 100% ▕████████████████▏   30 B                         
+pulling 42347cd80dc8... 100% ▕████████████████▏  485 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+[?25lpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest 
+pulling c1864a5eb193... 100% ▕████████████████▏ 1.7 GB                         
+pulling 097a36493f71... 100% ▕████████████████▏ 8.4 KB                         
+pulling 109037bec39c... 100% ▕████████████████▏  136 B                         
+pulling 22a838ceb7fb... 100% ▕████████████████▏   84 B                         
+pulling 887433b89a90... 100% ▕████████████████▏  483 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+[?25lpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠸ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest 
+pulling 46bb65206e0e... 100% ▕████████████████▏ 2.3 GB                         
+pulling 41c2cf8c272f... 100% ▕████████████████▏ 7.3 KB                         
+pulling 1da0581fd4ce... 100% ▕████████████████▏  130 B                         
+pulling f02dd72bb242... 100% ▕████████████████▏   59 B                         
+pulling b861bd365e67... 100% ▕████████████████▏  483 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+[?25lpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest ⠹ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠼ [?25h[?25l[2K[1Gpulling manifest ⠴ [?25h[?25l[2K[1Gpulling manifest ⠦ [?25h[?25l[2K[1Gpulling manifest ⠧ [?25h[?25l[2K[1Gpulling manifest ⠇ [?25h[?25l[2K[1Gpulling manifest ⠏ [?25h[?25l[2K[1Gpulling manifest ⠋ [?25h[?25l[2K[1Gpulling manifest ⠙ [?25h[?25l[2K[1Gpulling manifest 
+pulling 8934d96d3f08... 100% ▕████████████████▏ 3.8 GB                         
+pulling 8c17c2ebb0ea... 100% ▕████████████████▏ 7.0 KB                         
+pulling 7c23fb36d801... 100% ▕████████████████▏ 4.8 KB                         
+pulling 2e0493f67d0c... 100% ▕████████████████▏   59 B                         
+pulling fa304d675061... 100% ▕████████████████▏   91 B                         
+pulling 42ba7f8a01dd... 100% ▕████████████████▏  557 B                         
+verifying sha256 digest 
+writing manifest 
+removing any unused layers 
+success [?25h
+#########################    DatasetInit    #########################
+#########################    Lone LLM Outputs    #########################
+{'model': 'mistral', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'mistral', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'mistral', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'mistral', 'prompt': 'Was it Margaret Mitchell who wrote Gone With the Wind?', 'stream': False}
+{'model': 'mistral', 'prompt': 'when did she write it?', 'stream': False}
+{'model': 'mistral', 'prompt': 'was it awarded a Pulitzer for fiction?', 'stream': False}
+{'model': 'mistral', 'prompt': 'and the last line is?', 'stream': False}
+{'model': 'mistral', 'prompt': 'was it turned into a film?', 'stream': False}
+row ok
+#########################    Lone LLM Outputs    #########################
+{'model': 'gemma:2b', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'gemma:2b', 'prompt': 'Was it Margaret Mitchell who wrote Gone With the Wind?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'when did she write it?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'was it awarded a Pulitzer for fiction?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'and the last line is?', 'stream': False}
+{'model': 'gemma:2b', 'prompt': 'was it turned into a film?', 'stream': False}
+row ok
+#########################    Lone LLM Outputs    #########################
+{'model': 'qwen:4b', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'qwen:4b', 'prompt': 'Was it Margaret Mitchell who wrote Gone With the Wind?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'when did she write it?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'was it awarded a Pulitzer for fiction?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'and the last line is?', 'stream': False}
+{'model': 'qwen:4b', 'prompt': 'was it turned into a film?', 'stream': False}
+row ok
+#########################    Lone LLM Outputs    #########################
+{'model': 'llama2', 'prompt': 'Who wrote The Mist?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What is his birthday?', 'stream': False}
+{'model': 'llama2', 'prompt': 'What year was it published?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Was it awarded?', 'stream': False}
+{'model': 'llama2', 'prompt': 'Has it ever been nominated?', 'stream': False}
+row ok
+{'model': 'llama2', 'prompt': 'Was it Margaret Mitchell who wrote Gone With the Wind?', 'stream': False}
+{'model': 'llama2', 'prompt': 'when did she write it?', 'stream': False}
+{'model': 'llama2', 'prompt': 'was it awarded a Pulitzer for fiction?', 'stream': False}
+{'model': 'llama2', 'prompt': 'and the last line is?', 'stream': False}
+{'model': 'llama2', 'prompt': 'was it turned into a film?', 'stream': False}
+row ok
+######################### Non-Conversational LLM Blender #########################
+WARNING:root:No ranker config provided, no ranker loaded, please load ranker first through load_ranker()
+WARNING:root:No fuser config provided, no fuser loaded, please load fuser first through load_fuser()
+/workspace/amit_ug/.local/lib/python3.10/site-packages/dataclasses_json/core.py:201: RuntimeWarning: 'NoneType' object value of non-optional type load_checkpoint detected when decoding RankerConfig.
+  warnings.warn(
+/workspace/amit_ug/.local/lib/python3.10/site-packages/dataclasses_json/core.py:201: RuntimeWarning: 'NoneType' object value of non-optional type device detected when decoding RankerConfig.
+  warnings.warn(
+/workspace/amit_ug/.local/lib/python3.10/site-packages/transformers/convert_slow_tokenizer.py:562: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Successfully loaded ranker from  /workspace/amit_ug/.cache/huggingface/hub/llm-blender/PairRM
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:01<00:00,  1.13s/it]Ranking candidates: 100%|██████████| 1/1 [00:01<00:00,  1.13s/it]
+[[1 4 2 3]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]2024-09-08 11:27:28.985755: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-09-08 11:27:29.002791: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-09-08 11:27:29.008033: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-09-08 11:27:29.020067: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-08 11:27:29.776943: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Fusing candidates: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]Fusing candidates: 100%|██████████| 1/1 [00:02<00:00,  2.23s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.62it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.62it/s]
+[[2 3 4 1]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]
+[[1 3 2 4]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.08it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.08it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.59it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.58it/s]
+[[1 4 3 2]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]
+[[2 4 3 1]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:03<00:00,  3.76s/it]Fusing candidates: 100%|██████████| 1/1 [00:03<00:00,  3.76s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.65it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.65it/s]
+[[1 4 2 3]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.86it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.86it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.69it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.69it/s]
+[[2 3 4 1]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.02s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.03s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.68it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.68it/s]
+[[1 3 4 2]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:02<00:00,  2.39s/it]Fusing candidates: 100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.69it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.69it/s]
+[[3 1 2 4]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.06s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.06s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]
+[[1 4 3 2]]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+WARNING:root:No ranker config provided, no ranker loaded, please load ranker first through load_ranker()
+WARNING:root:No fuser config provided, no fuser loaded, please load fuser first through load_fuser()
+Successfully loaded ranker from  /workspace/amit_ug/.cache/huggingface/hub/llm-blender/PairRM
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.61it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.61it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.38it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.37it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.64it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.64it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.65it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]Fusing candidates: 100%|██████████| 1/1 [00:02<00:00,  2.14s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.63it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.63it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.62it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.61it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.63it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.63it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.65it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s]Fusing candidates: 100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.64it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.64it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Ranking candidates:   0%|          | 0/1 [00:00<?, ?it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.67it/s]Ranking candidates: 100%|██████████| 1/1 [00:00<00:00,  2.66it/s]
+Fusing candidates:   0%|          | 0/1 [00:00<?, ?it/s]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Fusing candidates: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Bye

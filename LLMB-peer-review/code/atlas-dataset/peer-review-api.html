@@ -1,0 +1,257 @@
+<!-- for future demo app -->
+<!-- not for paper , but for future demo presentation -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Blender Experiment</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased p-6">
+
+    <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">LLM Blender Experiment</h1>
+
+        <div class="bg-white shadow-md rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Experiment Overview</h2>
+            <p class="mb-4">
+                This experiment evaluates different strategies for combining responses from multiple Large Language Models (LLMs)
+                using the `llm_blender` library. The strategies tested include:
+            </p>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Full Ranking (Baseline):</strong> Ranks all LLM responses for every conversational turn.</li>
+                <li><strong>Dynamic Elimination:</strong> Eliminates the lowest-performing LLMs after half the conversation.</li>
+                <li><strong>Alternate Ranking:</strong> Performs ranking only on even turns, reuses the ranking on odd turns.</li>
+                <li><strong>Fixed Interval Elimination:</strong> Eliminates the lowest-performing LLMs every 3 conversations.</li>
+            </ul>
+            <p>
+                The experiment uses Ollama to serve various LLMs and the `llm_blender` library for ranking and fusion.
+            </p>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Setup Status</h2>
+            <div id="setup-status" class="space-y-2">
+                <div class="flex items-center">Ollama Input JSON: <span id="ollama-status" class="ml-2 badge badge-neutral">Not Started</span></div>
+                <div class="flex items-center">Dataset Loading: <span id="dataset-status" class="ml-2 badge badge-neutral">Not Started</span></div>
+                <div class="flex items-center">LLM Output Generation: <span id="llm-output-status" class="ml-2 badge badge-neutral">Not Started</span></div>
+                <div class="flex items-center">Blender Initialization: <span id="blender-status" class="ml-2 badge badge-neutral">Not Started</span></div>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Experiment Progress</h2>
+            <div id="experiment-status" class="space-y-2">
+                <!-- Experiment steps will be added here -->
+            </div>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-700">Results</h2>
+            <div id="results-summary" class="space-y-2">
+                <!-- Results will be summarized here -->
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module">
+        // Helper function to update status badges
+        function updateStatus(id, status) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.textContent = status;
+                element.classList.remove('badge-neutral', 'badge-success', 'badge-error', 'badge-warning');
+                if (status === 'Success' || status === 'Complete' || status === '✓') {
+                    element.classList.add('badge-success');
+                } else if (status === 'Error' || status === '✗') {
+                    element.classList.add('badge-error');
+                } else if (status === 'Running...') {
+                    element.classList.add('badge-warning');
+                } else {
+                    element.classList.add('badge-neutral');
+                }
+            }
+        }
+
+        // Helper function to add experiment step
+        function addExperimentStep(name, statusId) {
+            const container = document.getElementById('experiment-status');
+            if (container) {
+                const div = document.createElement('div');
+                div.classList.add('flex', 'items-center');
+                div.innerHTML = `${name}: <span id="${statusId}" class="ml-2 badge badge-neutral">Not Started</span>`;
+                container.appendChild(div);
+            }
+        }
+        
+        // Helper function to add result summary
+        function addResultSummary(name, content) {
+            const container = document.getElementById('results-summary');
+            if (container) {
+                const div = document.createElement('div');
+                div.innerHTML = `<strong>${name}:</strong> ${content}`;
+                container.appendChild(div);
+            }
+        }
+
+        // --- Main Execution Logic ---
+        async function runExperiment() {
+            
+            // Add experiment steps
+            addExperimentStep('Setup Ollama Input JSON', 'ollama-setup-status');
+            addExperimentStep('Load/Initialize Dataset', 'dataset-load-status');
+            addExperimentStep('Generate LLM Outputs', 'llm-output-gen-status');
+            addExperimentStep('Initialize LLM Blender', 'blender-init-status');
+            addExperimentStep('Run Full Ranking Experiment', 'full-ranking-status');
+            addExperimentStep('Run Dynamic Elimination Experiment', 'dynamic-elimination-status');
+            addExperimentStep('Run Alternate Ranking Experiment', 'alternate-ranking-status');
+            addExperimentStep('Run Fixed Interval Elimination Experiment', 'fixed-interval-elimination-status');
+            addExperimentStep('Evaluate Results with BERTScore', 'bertscore-eval-status');
+
+            // 1. Setup Ollama Input JSON
+            updateStatus('ollama-status', 'Running...');
+            try {
+                await fetch('/api/setup_ollama_input', { method: 'POST' });
+                updateStatus('ollama-status', 'Success');
+            } catch (error) {
+                updateStatus('ollama-status', 'Error');
+                console.error('Error setting up Ollama input:', error);
+                return;
+            }
+
+            // 2. Load/Initialize Dataset
+            updateStatus('dataset-status', 'Running...');
+            let inputs = [];
+            try {
+                const response = await fetch('/api/init_dataset', { method: 'POST' });
+                const data = await response.json();
+                if (response.ok) {
+                    inputs = data.inputs;
+                    updateStatus('dataset-status', 'Success');
+                } else {
+                    updateStatus('dataset-status', 'Error');
+                    console.error('Error initializing dataset:', data.error);
+                    return;
+                }
+            } catch (error) {
+                updateStatus('dataset-status', 'Error');
+                console.error('Error initializing dataset:', error);
+                return;
+            }
+
+            // 3. Generate LLM Outputs
+            updateStatus('llm-output-status', 'Running...');
+            try {
+                const response = await fetch('/api/generate_llm_outputs', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ inputs })
+                });
+                const data = await response.json();
+                if (response.ok) {
+                    updateStatus('llm-output-status', 'Success');
+                } else {
+                    updateStatus('llm-output-status', 'Error');
+                    console.error('Error generating LLM outputs:', data.error);
+                    return;
+                }
+            } catch (error) {
+                updateStatus('llm-output-status', 'Error');
+                console.error('Error generating LLM outputs:', error);
+                return;
+            }
+
+            // 4. Initialize LLM Blender
+            updateStatus('blender-status', 'Running...');
+            try {
+                const response = await fetch('/api/init_blender', { method: 'POST' });
+                const data = await response.json();
+                if (response.ok) {
+                    updateStatus('blender-status', 'Success');
+                } else {
+                    updateStatus('blender-status', 'Error');
+                    console.error('Error initializing blender:', data.error);
+                    return;
+                }
+            } catch (error) {
+                updateStatus('blender-status', 'Error');
+                console.error('Error initializing blender:', error);
+                return;
+            }
+
+            // 5. Run Experiments
+            const experiments = [
+                { name: 'Full Ranking', statusId: 'full-ranking-status', endpoint: '/api/full_ranking' },
+                { name: 'Dynamic Elimination', statusId: 'dynamic-elimination-status', endpoint: '/api/dynamic_elimination' },
+                { name: 'Alternate Ranking', statusId: 'alternate-ranking-status', endpoint: '/api/alternate_ranking' },
+                { name: 'Fixed Interval Elimination', statusId: 'fixed-interval-elimination-status', endpoint: '/api/fixed_interval_elimination' },
+            ];
+
+            for (const exp of experiments) {
+                updateStatus(exp.statusId, 'Running...');
+                try {
+                    const response = await fetch(exp.endpoint, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ inputs })
+                    });
+                    const data = await response.json();
+                    if (response.ok) {
+                        updateStatus(exp.statusId, 'Success');
+                    } else {
+                        updateStatus(exp.statusId, 'Error');
+                        console.error(`Error running ${exp.name}:`, data.error);
+                        return;
+                    }
+                } catch (error) {
+                    updateStatus(exp.statusId, 'Error');
+                    console.error(`Error running ${exp.name}:`, error);
+                    return;
+                }
+            }
+
+            // 6. Evaluate Results with BERTScore
+            updateStatus('bertscore-eval-status', 'Running...');
+            try {
+                const response = await fetch('/api/evaluate_bertscore', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ inputs })
+                });
+                const data = await response.json();
+                if (response.ok) {
+                    updateStatus('bertscore-eval-status', 'Success');
+                    addResultSummary('BERTScore F1 (Full Ranking)', data.results.full_ranking.toFixed(4));
+                    addResultSummary('BERTScore F1 (Dynamic Elimination)', data.results.dynamic_elimination.toFixed(4));
+                    addResultSummary('BERTScore F1 (Alternate Ranking)', data.results.alternate_ranking.toFixed(4));
+                    addResultSummary('BERTScore F1 (Fixed Interval Elimination)', data.results.fixed_interval_elimination.toFixed(4));
+                } else {
+                    updateStatus('bertscore-eval-status', 'Error');
+                    console.error('Error evaluating BERTScore:', data.error);
+                    return;
+                }
+            } catch (error) {
+                updateStatus('bertscore-eval-status', 'Error');
+                console.error('Error evaluating BERTScore:', error);
+                return;
+            }
+
+            console.log("✅ LLM Blender Experiment Completed Successfully!");
+        }
+
+        // Run the experiment when the page loads
+        document.addEventListener('DOMContentLoaded', runExperiment);
+
+    </script>
+
+</body>
+</html>

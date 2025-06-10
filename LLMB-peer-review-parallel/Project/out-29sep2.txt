@@ -1,0 +1,5 @@
+Hi
+#########################    Installing LLMS    #########################
+#########################    DatasetInit    #########################
+#########################    Lone LLM Outputs    #########################
+{'model': 'mistral', 'prompt': 'What year did the TV show Arrested Development first air?', 'stream': False}
