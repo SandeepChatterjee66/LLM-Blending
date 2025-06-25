@@ -15,7 +15,10 @@ from typing import List, Dict, Tuple, Any
 import math
 
 # Configuration
-LLM_LIST = ['mistral', 'llama3', 'gemma:2b', 'phi3', 'qwen:4b', 'deepseek-llm', 'stablelm2']
+LLM_list = ['mistral', 'llama3', 'gemma:2b', 'phi3', 'qwen:4b', 'deepseek-llm', 'stablelm2']
+LLM_LIST = ['mistral', 'llama3.1', 'gemma:2b', 'phi3', 'qwen:4b', 
+                'phi', 'tinydolphin', 'deepseek-llm', 'stablelm2', 'dog/arcee-lite']
+    
 API_URL = 'http://127.0.0.1:11434/api/generate'
 
 # Define prompt templates (replace with actual file paths or content)
